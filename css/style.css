@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(rgba(26, 76, 158, 0.4), rgba(0, 0, 0, 0.4)), url(images/laptop_tes.jpg) fixed center center;
+    background-size: cover;
+    padding-top: 56px;
+    color: #fff;
+}
+
+#portfolio_body {
+    background: linear-gradient(rgba(26, 76, 158, 0.6), rgba(0, 0, 0, 0.6)), url(images/globe.png) fixed center center;
+    background-size: cover;
+    padding-top: 56px;
+    color: #fff;
+}
+
+#contact_me_body {
+    background: linear-gradient(rgba(26, 76, 158, 0.8), rgba(0, 0, 0, 0.8)), url(images/old_phone.jpg) fixed center center;
+    background-size: cover;
+    padding-top: 56px;
+    color: #fff;
+}
+
+.display-4, h2, h1, p, li, .h2, h3, .card-title, a {
+    font-family: 'Play', sans-serif;
+    color: #fff;
+}
+
+a {
+    font-family: 'Play', sans-serif;
+    color: #F6CF66;
+}
+
+.img-fluid {
+    box-shadow: 0px 0px 20px 6px #ffffff73;
+}
+
+a:hover {
+    color: #fff;
+}
+
+#mobile-nav li .nav-item :active {
+    color: #2A74E7;
+}
+
+a:active {
+    color: #fff;
+}
+
+.contact-phone {
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+.form-control, #name {
+    background-color: transparent;
+    padding: 18px 14px;
+    border-radius: 15px;
+    box-shadow: none;
+    font-size: 17px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+textarea .form-control {
+    height: auto;
+    color: #fff;
+} 
+footer   {
+	width: 100%;
+	padding-bottom: 10px;
+	background-color: #666666;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	position: sticky;
+	bottom: 0;
+	left: 0;
+	border-top: 7px solid #4aaaa5;
+	clear: both;
+}

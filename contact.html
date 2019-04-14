@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>My Bootstrap Portfolio</title>
+        <link href="css/images/my_ir_favicon.png" rel="icon">
+        <link href="css/my_ir_favicon.png" rel="apple-touch-icon">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+            integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script defer="" src="https://pro.fontawesome.com/releases/v5.7.1/js/all.js"
+            integrity="sha384-5atZgfYD4MHp6kAnxjw4yM3binN4Yh5XXKAIO6m2kIB9CqdRUladdvTdffLnTK3N"
+            crossorigin="anonymous"></script>
+    </head>
+<!--      body         -->
+    <body id="contact_me_body">
+        <nav class="navbar navbar-expand-lg bg-info fixed-top">
+            <div class="container">
+                <p class="h3"><a class="h3 navbar-brand text-light font-weight-bold" href="index.html">My Bootstrap
+                        Portfolio</a></p>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="h5 collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">My Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Say hi!</a>
+                            <span class="sr-only">(current)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header -->
+        <header class="bg-light py-4 mb-5">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-lg-12">
+                        <h1 class="display-4 text-dark mt-5 mb-2">Call Me!, Beep Me!</h1>
+                        <p class="lead mb-5 text-dark">Use the form bellow to to drop me an e-mail, I promise it won't go to
+                            my junk folder. Old-fashioned phone calls work too.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Page Content -->
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1>Give Me a Shout</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <p>Let's change digital publishing forever because the world doesn't need superheroes, it needs
+                        incredible websites.</p>
+                    <p>Lets Chat, I'll buy the coffee</p>
+                </div>
+            </div>
+            <div class="row contact-info text-center p-3">
+                <div class="col-md-4">
+                    <div class="contact-address">
+                        <i class="fas fa-home" style="font-size:30px;color:#F6CF66"></i>
+                        <h3 class="p-3">Address</h3>
+                        <address>2896 Emory Ln SE, Smyrna GA, USA</address>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-phone">
+                        <i class="fas fa-phone" style="font-size:30px;color:#F6CF66"></i>
+                        <h3 class="p-3">Phone Number</h3>
+                        <p class="h5"><a href="tel:+17706887959">+1 770 688 7959</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-email">
+                        <i class="fas fa-envelope" style="font-size:30px;color:#F6CF66"></i>
+                        <h3 class="p-3">Email</h3>
+                        <p class="h5"><a href="mailto:ivansito87@gmail.com">ivansito87@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="form p-4">
+                <div id="errormessage"></div>
+                <form action="contact" method="post" class="contactForm">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" name="email" id="email" placeholder="Your Email"
+                                data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control p-3" name="subject" id="subject" placeholder="Subject"
+                            data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control p-3" name="message" rows="8" data-rule="required"
+                            data-msg="Please write something for me"
+                            placeholder="Please write me something nice!"></textarea>
+                        <div class="validation"></div>
+                    </div>
+                    <div class="text-right p-2"><button type="button" class="btn btn-info">Send Message</button></div>
+                </form>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="py-3 bg-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <p class="h5 p-1 m-0 text-center text-light">Find me on social media</p>
+                            <a class="text-align-center" href="https://github.com/ivansito87" target="_blank">
+                                <i class="fa fa-github w3-xxlarge text-align-center w3-padding-small"></i></a>
+                            <a class="white_a" href="https://www.facebook.com/ivan.rendon.319" target="_blank">
+                                <i class="fa fa-facebook-official w3-xxlarge w3-padding-small"></i></a>
+                            <a class="white_a" href="https://www.instagram.com/alexx_rendon_/" target="_blank">
+                                <i class="fa fa-instagram w3-xxlarge  w3-padding-small"></i></a>
+                            <a class="white_a" href="https://www.snapchat.com/add/alexivansito" target="_blank">
+                                <i class="fa fa-snapchat w3-xxlarge  w3-padding-small"></i></a>
+                            <a class="white_a" href="https://www.pinterest.com/ivansito87/" target="_blank">
+                                <i class="fa fa-pinterest-p w3-xxlarge  w3-padding-small"></i></a>
+                            <a class="white_a" href="https://twitter.com/IvanRen19266618" target="_blank">
+                                <i class="fa fa-twitter w3-xxlarge  w3-padding-small"></i></a>
+                            <a class="white_a" href="https://www.linkedin.com/in/ivan-rendon-368b53174/" target="_blank">
+                                <i class="fa fa-linkedin w3-xxlarge  w3-padding-small"></i></a>
+                            <p class="h6 p-1 m-0 text-center text-white">Copyright &copy; Ivan Rendon 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+
+
